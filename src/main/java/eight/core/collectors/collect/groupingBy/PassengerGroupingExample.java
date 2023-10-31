@@ -56,6 +56,7 @@ public class PassengerGroupingExample {
         groupByDestination(passengerList);
         groupFirstNamesByDestination(passengerList);
         getPassengerCountByDestination(passengerList);
+        getPassengerCountByDest(passengerList);
     }
 
     static void getPassportNoList(final List<Passenger> passengerList) {
@@ -116,7 +117,7 @@ DEL=[Passenger(passportNo=Q378909, lastname=Gupta, firstname=Rakesh, startingpoi
     static void destinationList(final List<Passenger> passengerList) {
         Predicate<Passenger> des_hkg = p -> Objects.equals(p.getDestination(), "HKG");
         List<String> destination_hkg =
-                Passenger.getPassengerList()
+                passengerList
                         .stream()
                         .filter(des_hkg)
                         .map(Passenger::getFirstname).toList();
