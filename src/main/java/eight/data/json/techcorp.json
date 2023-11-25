@@ -1,0 +1,58 @@
+{
+  "company": "TechCorp",
+  "employees": [
+    {
+      "id": 101,
+      "name": "Alice",
+      "department": "Engineering",
+      "skills": [
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "projects": [
+        {
+          "name": "ProjectA",
+          "startDate": "2023-01-10",
+          "endDate": "2023-06-30",
+          "status": "In Progress"
+        },
+        {
+          "name": "ProjectB",
+          "startDate": "2023-03-15",
+          "endDate": "2023-09-30",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Bob",
+      "department": "Marketing",
+      "skills": [
+        "Marketing Strategy",
+        "Social Media Management"
+      ],
+      "projects": [
+        {
+          "name": "CampaignX",
+          "startDate": "2023-02-20",
+          "endDate": "2023-07-10",
+          "status": "In Progress"
+        }
+      ]
+    }
+  ],
+  "officeLocations": [
+    {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": "123 Tech Street"
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "address": "456 Tech Avenue"
+    }
+  ]
+}
