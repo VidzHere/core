@@ -1,4 +1,4 @@
-package ds.array;
+package ds.twoPtr;
 
 /*
 In this example, the twoSum method takes an array of integers (nums) and a target value.
